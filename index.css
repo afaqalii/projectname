@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.todo-box {
+  margin-top: 10%;
+}
+.todo-box-header h1 {
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: .8em;
+}
+.todo-box-header form {
+  display: flex;
+  gap: 3em;
+}
+.input {
+  padding: .8em;
+  width: 400px;
+  border-radius: 20px;
+}
+form button {
+  padding: .8em 1em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.task-section {
+  margin-top: 3em;
+}
+.task-section h2 {
+  font-size: 2em;
+  font-weight: lighter;
+  margin-bottom: .7em;
+}
+.task-content {
+  width: 600px;
+  padding: .7em;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+.task-section-para {
+  outline: none;
+  border: none;
+  font-size: 1.1em;
+}
+.task-content-actions {
+  display: flex;
+}
+ .actionBtn {
+   border: none;
+   font-size: 1.3em;
+   border-radius: 20px;
+   background-color: white;
+   padding: 5px 1em;
+   padding: .4 1em;   
+   cursor: pointer;
+}
+.edit {
+  color: blue;
+}
+.delete {
+  color: crimson;
+}
